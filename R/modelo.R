@@ -28,3 +28,20 @@ system("git push origin main")  # substitua main se a branch principal tiver out
 
 # 6️⃣ Mensagem final
 cat("Função adicionada, commit criado e alterações enviadas para GitHub!\n")
+
+system('git config --global user.name "VagnerGraeff-Filho"')
+system('git config --global user.email "vagner.filho966@gmail.com"')
+
+# Criar commit
+system('git commit -m "Adiciona função velocidade_media e script modelo.R ao pacote forageR"')
+
+# Enviar alterações para o GitHub
+system("git push origin master")  # sua branch principal é 'master'
+
+
+# Confirma se não há mais alterações pendentes
+system("git status")
+
+# Lista os últimos commits
+system("git log --oneline -n 5")
+
