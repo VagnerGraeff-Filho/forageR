@@ -1,14 +1,9 @@
 Package: forageR
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
-Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Type: Package
+Title: Pacote de funções para análises de abelhas
+Version: 0.1.0
+Author: Vagner Graeff-Filho
+Maintainer: Vagner Graeff-Filho <vagner.filho966@gmail.com>
+Description: Pacote exemplo com funções como regra3 e velocidade_media.
+License: MIT
 Encoding: UTF-8
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.3
-Suggests: 
-    testthat (>= 3.0.0)
-Config/testthat/edition: 3
