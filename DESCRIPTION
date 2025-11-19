@@ -7,6 +7,3 @@ Maintainer: Vagner Graeff-Filho <vagner.filho966@gmail.com>
 Description: Pacote exemplo com funções como regra3 e velocidade_media.
 License: MIT
 Encoding: UTF-8
-LazyData: true
-Imports:
-    stats
