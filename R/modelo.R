@@ -18,3 +18,19 @@ velocidade_media <- function(distancia, tempo) {
   if(length(distancia) != length(tempo)) stop("Distância e tempo devem ter o mesmo comprimento")
   distancia / tempo
 }
+
+#' Calcula perda relativa a partir do ganho percentual
+#'
+#' Converte um aumento percentual (ganho) em perda relativa equivalente.
+#'
+#' @param ganho_percentual número ou vetor com o ganho percentual
+#' @return perda percentual correspondente
+#' @examples
+#' perda_relativa(240)
+#' perda_relativa(c(50, 100, 200))
+#' @export
+perda_relativa <- function(ganho_percentual) {
+  perda <- (1 - 1 / (1 + ganho_percentual / 100)) * 100
+  return(perda)
+}
+
