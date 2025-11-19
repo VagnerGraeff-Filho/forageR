@@ -17,7 +17,10 @@ regra3 <- function(a, b, y) {
 }
 
 
+library(roxygen2)
 
+# Gere a documentação e o NAMESPACE
+roxygen2::roxygenise("C:/meus_pacotes/forageR")
 
 
 
@@ -60,3 +63,6 @@ if(length(status) > 0) {
 # 6️⃣ Conferir status e últimos commits
 system("git status")
 system("git log --oneline -n 5")
+
+
+
